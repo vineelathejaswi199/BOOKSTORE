@@ -6,7 +6,6 @@
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
-    "newArchEnabled": true,
     "ios": {
       "supportsTablet": true,
       "bundleIdentifier": "com.pageturn.bookstore"
@@ -14,12 +13,15 @@
     "android": {
       "package": "com.pageturn.bookstore",
       "adaptiveIcon": {
-        "backgroundColor": "#1A1A2E",
-        "foregroundImage": "./assets/adaptive-icon.png"
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png",
+        "backgroundColor": "#1A1A2E"
       }
     },
     "plugins": [
-      "expo-status-bar"
+      "expo-status-bar",
+      "expo-font"
     ]
   }
 }
